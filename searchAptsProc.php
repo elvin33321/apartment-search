@@ -82,6 +82,8 @@ if(isset($_GET['gym'])) {
 
 $query .= " ORDER BY $orderBy $ascDesc"; // this line MUST be LAST !
 
+// Pagination code goes here.
+
 // Order by *columnName* *ASC/DESC* <-- Sort based on a column
 
 // 5.) execute the order: read records from apartments table
